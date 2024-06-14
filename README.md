@@ -25,6 +25,7 @@
    ```bash
    git remote -v
    ```
+   ![alt text](image-6.png)
 
 ## Mengubah URL Remote
 
