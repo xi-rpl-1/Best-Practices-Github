@@ -1,3 +1,16 @@
+# Menghubungkan Repository Lokal dengan Remote
+
+1. **Inisialisasi Repository Lokal**:
+   ```bash
+   git init
+   ```
+   ![alt text](image-2.png)
+2. **Tambahkan Remote**:
+   ```bash
+   git remote add origin https://github.com/username/repository.git
+   ```
+   ![alt text](assets/image.png)
+
 # Remote
 
 ## Menambahkan Remote Baru
@@ -8,7 +21,7 @@
    ```
    contoh:
    ![alt text](assets/image.png)
-2. **Verifikasi Remote atau Cek Remote**:
+2. **Verifikasi Remote**:
    ```bash
    git remote -v
    ```
@@ -26,18 +39,29 @@
 
 ## Mengirim Perubahan ke Remote
 
-1. **Staging Perubahan**:
+1. **Cek Perubahan**:
+   ```bash
+   git status
+   ```
+   ![alt text](image.png)
+2. **Staging Perubahan**:
    ```bash
    git add .
    ```
-2. **Commit Perubahan**:
+   ![alt text](image-1.png)
+3. **Commit Perubahan**:
+
    ```bash
    git commit -m "Deskripsi perubahan"
    ```
-3. **Push ke Remote**:
+
+   ![alt text](image-3.png)
+
+4. **Push ke Remote**:
    ```bash
    git push origin main
    ```
+   ![alt text](image-4.png)
 
 # Pull
 
@@ -47,3 +71,4 @@
    ```bash
    git pull origin main
    ```
+   ![alt text](image-5.png)
